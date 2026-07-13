@@ -1,0 +1,19 @@
+{
+  "day": 2,
+  "student_name": "Nikhil Balamurugan",
+  "github": "Nikhil210206",
+  "lab1_scenario": "A",
+  "lab1_prompt": "You are a Customer Support Executive Draft a professional reply to the customer. \nContext: The customer has reported their 3rd Galaxy Watch battery issue this month. The watch is still under warranty Constraints: Keep it under 150 words, apologize, acknowledge the issue, offer warranty service/replacement assistance, but do not promise a refund. \nTone: Empathetic, professional\n Output format: A single customer email with a greeting, body, and closing.",
+  "lab1_output_met_constraints": true,
+  "lab1_extra_scenarios_done": 0,
+  "lab2_problem": "Galaxy Buds distribution centre — shipment/hold/restock",
+  "lab2_naive_output_summary": "The AI answered 4,299 Galaxy Buds units available for sale by the end of the day. It did by subtracting the units sent out, calculating and reserving 6% of the remaining stock, then adding the restocked units step by step.",
+  "lab2_cot_prompt": "The day starts with 4,200 Galaxy Buds in stock. During the day, 850 units are shipped out. After the shipment, 6% of the remaining stock as reserve inventory that cannot be sold. Later, got a restock of 1,150 units, all of which are available for sale.\n\nWork through this one step at a time:\n\n1. Calculate the stock remaining\n2. Calculate 6% of the remaining stock and subtract it\n3. Add the 1,150 restocked units\n4. Show each calculation clearly, then state the final number of Galaxy Buds available for sale by the end of the day.",
+  "lab2_cot_output_summary": "Galaxy Buds available for sale by the end of the day: 4,299 units.",
+  "better_approach": "cot",
+  "stretch_done": true,
+  "stretch_react_prompt": "The day starts with 4,200 Galaxy Buds in stock. It ships 850 units, reserves 6% of the remaining stock, and then receives a restock of 1,150 units.\n\nBefore answering, identify whether this problem requires any external tools (such as a calculator, spreadsheet, database, etc). If an external tool would be needed, explain why instead of guessing. else, perform the calculations step by step, show each result, and provide the final number of Galaxy Buds available for sale by the end of the day. Do not invent any missing information. Ask anything if needed.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-13T21:43:51.215Z"
+}
