@@ -1,0 +1,52 @@
+{
+  "day": 4,
+  "student_name": "Nikhil Balamurugan",
+  "github": "Nikhil210206",
+  "incidents": [
+    {
+      "id": "A",
+      "failure_type": "Hallucination",
+      "principle": "Reliability",
+      "justification": "The chatbot confidently fabricated a company policy, producing false information that users relied on."
+    },
+    {
+      "id": "B",
+      "failure_type": "Privacy Violation",
+      "principle": "Privacy",
+      "justification": "Sensitive employee and client information was collected without users knowledge"
+    },
+    {
+      "id": "C",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Transparency",
+      "justification": "AI-generated content was presented as authentic, misleading the public and influencing financial decisions."
+    },
+    {
+      "id": "D",
+      "failure_type": "Bias/Discrimination",
+      "principle": "Fairness",
+      "justification": "The model indirectly discriminated against a protected group through proxy features, resulting in unfair hiring outcomes"
+    },
+    {
+      "id": "E",
+      "failure_type": "Lack of Human Oversight",
+      "principle": "Human Oversight",
+      "justification": "Biased moderation continued unchecked because no one monitored or reviewed the system's decisions."
+    },
+    {
+      "id": "F",
+      "failure_type": "Deepfake/Misinformation",
+      "principle": "Security",
+      "justification": "Attackers used AI-generated voice impersonation to deceive an employee and compromise the company's financial security."
+    }
+  ],
+  "justifications_written": 6,
+  "stretch_done": true,
+  "stretch_company": "Anthropic – Claude Code",
+  "stretch_failure_type": "Security Breach",
+  "stretch_principle": "Security",
+  "stretch_notes": "On March 31, 2026, Anthropic accidentally leaked the full source code for Claude Code via a misconfigured npm package. This included over 512,000 lines of TypeScript across 1,900+ files.",
+  "tasks_completed": 6,
+  "tasks_total": 6,
+  "submitted_at": "2026-07-15T18:29:03.108Z"
+}
